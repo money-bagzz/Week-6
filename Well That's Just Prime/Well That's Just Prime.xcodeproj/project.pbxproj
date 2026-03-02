@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3717DC492F54E4B00063A230 /* CopyFiles */ = {
+		3717DC5E2F55485D0063A230 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,11 +19,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3717DC4B2F54E4B00063A230 /* Well That's Just Prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Well That's Just Prime"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3717DC602F55485D0063A230 /* Well That's Just Prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Well That's Just Prime"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3717DC4D2F54E4B00063A230 /* Well That's Just Prime */ = {
+		3717DC622F55485D0063A230 /* Well That's Just Prime */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Well That's Just Prime";
 			sourceTree = "<group>";
@@ -31,7 +31,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3717DC482F54E4B00063A230 /* Frameworks */ = {
+		3717DC5D2F55485D0063A230 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3717DC422F54E4B00063A230 = {
+		3717DC572F55485D0063A230 = {
 			isa = PBXGroup;
 			children = (
-				3717DC4D2F54E4B00063A230 /* Well That's Just Prime */,
-				3717DC4C2F54E4B00063A230 /* Products */,
+				3717DC622F55485D0063A230 /* Well That's Just Prime */,
+				3717DC612F55485D0063A230 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3717DC4C2F54E4B00063A230 /* Products */ = {
+		3717DC612F55485D0063A230 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3717DC4B2F54E4B00063A230 /* Well That's Just Prime */,
+				3717DC602F55485D0063A230 /* Well That's Just Prime */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,63 +60,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3717DC4A2F54E4B00063A230 /* Well That's Just Prime */ = {
+		3717DC5F2F55485D0063A230 /* Well That's Just Prime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3717DC522F54E4B00063A230 /* Build configuration list for PBXNativeTarget "Well That's Just Prime" */;
+			buildConfigurationList = 3717DC672F55485D0063A230 /* Build configuration list for PBXNativeTarget "Well That's Just Prime" */;
 			buildPhases = (
-				3717DC472F54E4B00063A230 /* Sources */,
-				3717DC482F54E4B00063A230 /* Frameworks */,
-				3717DC492F54E4B00063A230 /* CopyFiles */,
+				3717DC5C2F55485D0063A230 /* Sources */,
+				3717DC5D2F55485D0063A230 /* Frameworks */,
+				3717DC5E2F55485D0063A230 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3717DC4D2F54E4B00063A230 /* Well That's Just Prime */,
+				3717DC622F55485D0063A230 /* Well That's Just Prime */,
 			);
 			name = "Well That's Just Prime";
 			packageProductDependencies = (
 			);
 			productName = "Well That's Just Prime";
-			productReference = 3717DC4B2F54E4B00063A230 /* Well That's Just Prime */;
+			productReference = 3717DC602F55485D0063A230 /* Well That's Just Prime */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3717DC432F54E4B00063A230 /* Project object */ = {
+		3717DC582F55485D0063A230 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					3717DC4A2F54E4B00063A230 = {
+					3717DC5F2F55485D0063A230 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 3717DC462F54E4B00063A230 /* Build configuration list for PBXProject "Well That's Just Prime" */;
+			buildConfigurationList = 3717DC5B2F55485D0063A230 /* Build configuration list for PBXProject "Well That's Just Prime" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3717DC422F54E4B00063A230;
+			mainGroup = 3717DC572F55485D0063A230;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3717DC4C2F54E4B00063A230 /* Products */;
+			productRefGroup = 3717DC612F55485D0063A230 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3717DC4A2F54E4B00063A230 /* Well That's Just Prime */,
+				3717DC5F2F55485D0063A230 /* Well That's Just Prime */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3717DC472F54E4B00063A230 /* Sources */ = {
+		3717DC5C2F55485D0063A230 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +126,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3717DC502F54E4B00063A230 /* Debug */ = {
+		3717DC652F55485D0063A230 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		3717DC512F54E4B00063A230 /* Release */ = {
+		3717DC662F55485D0063A230 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		3717DC532F54E4B00063A230 /* Debug */ = {
+		3717DC682F55485D0063A230 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		3717DC542F54E4B00063A230 /* Release */ = {
+		3717DC692F55485D0063A230 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3717DC462F54E4B00063A230 /* Build configuration list for PBXProject "Well That's Just Prime" */ = {
+		3717DC5B2F55485D0063A230 /* Build configuration list for PBXProject "Well That's Just Prime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3717DC502F54E4B00063A230 /* Debug */,
-				3717DC512F54E4B00063A230 /* Release */,
+				3717DC652F55485D0063A230 /* Debug */,
+				3717DC662F55485D0063A230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3717DC522F54E4B00063A230 /* Build configuration list for PBXNativeTarget "Well That's Just Prime" */ = {
+		3717DC672F55485D0063A230 /* Build configuration list for PBXNativeTarget "Well That's Just Prime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3717DC532F54E4B00063A230 /* Debug */,
-				3717DC542F54E4B00063A230 /* Release */,
+				3717DC682F55485D0063A230 /* Debug */,
+				3717DC692F55485D0063A230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3717DC432F54E4B00063A230 /* Project object */;
+	rootObject = 3717DC582F55485D0063A230 /* Project object */;
 }

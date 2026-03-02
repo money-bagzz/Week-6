@@ -1,46 +1,36 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Factorizer {
-    public:
-        vector<int> calcPrime(int num) {
-            vector<int> list;
-            
-            while(num % 2 == 0) {
-                list.push_back(2);
-                num /= 2;
-            }
-            
-            for(int i = 3; i * i <= num; i += 2) {
-                while(num % i == 0) {
-                    list.push_back(i);
-                    num = num / i;
-                }
-            }
-            
-            if(num > 2) {
-                list.push_back(num);
-            }
-            
-            return list;
+public:
+    vector<int> primeFactors(int num, int div = 2) {
+        if(num <= 1) {
+            return {};
         }
-    
-        void printFactors(vector<int> list) {
-            for(int i : list) {
-                cout << i << " ";
-            }
-            cout << endl;
+        
+        if(num % div == 0) {
+            vector<int> factors = {div};
+            vector<int> restFactors = primeFactors(num / div, div);
+            
+            factors.insert(factors.end(), restFactors.begin(), restFactors.end());
+            return factors;
+        } else {
+            return primeFactors(num, div + 1);
         }
+    }
 };
 
 int main() {
-    Factorizer factor;
-    vector<int> f = factor.calcPrime(250);
-    factor.printFactors(f);
+    Factorizer factorizer;
+    int num;
     
-    vector<int> f2 = factor.calcPrime(100);
-    factor.printFactors(f2);
+    cout << "Enter a number: ";
+    cin >> num;
+    vector<int> factors = factorizer.primeFactors(num);
     
-    vector<int> f3 = factor.calcPrime(24);
-    factor.printFactors(f3);
+    cout << "Your list of prime factor(s): " << endl;
+    for(int i: factors) {
+        cout << i << endl;
+    }
 }
